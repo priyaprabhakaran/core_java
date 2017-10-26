@@ -1,0 +1,39 @@
+
+# A Marker interface is a interface with no variables and methods, in simple words, we can say that empty interface 
+in java is called marker interface. Serializable, Cloneable, Remote Interface are some of the examples of Marker Interface.
+
+# What is the use of Marker Interface?
+	When we look closely the marker interface doesn’t have any methods in it, 
+	so then comes the question what is the use of it then? If you look closely Serializable, Cloneable, 
+	Remote Interface it looks like they will indicate something to compiler or JVM. So if the JVM sees Clonnable 
+	it performs some operation to support cloning. Same applies to the Serializable and other marker interfaces as well.
+
+# Why this indication cannot be done using a flag variable?
+
+	So now we know the what is the use of a marker interface, now again comes a question that why it cannot be done 
+	using a flag variable. Yes, you can do it using a flag variable but by using a Marker Interface you can have a 
+	more readable code. Later from java 1.5, the need for the marker interface is eliminated by the introduction of 
+	Java Annotation feature. It will be a good option to use the annotation rather than marker interface as annotations 
+ 	will have more advantages than a marker interface.
+
+# Some examples of Java Marker Interface
+
+	java.lang.Cloneable, java.util.EventListener,java.io.Serializable,java.rmi.Remote
+	
+# Marker/Tagging Interfaces:
+
+	An interface with no methods is known as marker or tagged interface.
+
+# Why marker interface used:  
+
+	It provides some useful information to JVM/compiler so that JVM/compiler performs some special operations on it. 
+	It is used for better readability of code.  Example: Serializable, Clonnable etc. 
+
+# Syntax:
+
+	public interface Interface_Name 
+	{
+	//Empty
+	}
+
+*/

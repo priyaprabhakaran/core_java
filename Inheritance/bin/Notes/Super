@@ -1,0 +1,33 @@
+package Notes;
+/*
+
+What is super in Java?
+
+Super is a keyword of Java which refers to the immediate parent of a class and is used inside the sub class method definition for calling a method defined in super class. A super class having methods as private cannot be called. Only the methods which are public and protected can be called by the keyword super. It is also used by class constructors to invoke constructors of its parent class.
+
+Syntax:
+super.<method-name>();
+
+Usage of super class
+
+#Super variables refer to the variable of variable of parent class.
+#Super() invokes the constructor of immediate parent class.
+#Super refers to the method of parent class.
+
+1. Use of super with variables: This scenario occurs when a derived class and base class has same data members. In that case there is a possibility of ambiguity for the JVM. 
+Eg: Super.Variablename;
+
+2. Use of super with methods: This is used when we want to call parent class method. So whenever a parent and child class have same named methods then to resolve ambiguity we use super keyword
+Eg: Super.MethodName();
+
+3.3. Use of super with constructors: super keyword can also be used to access the parent class constructor. One more important thing is that, ‘’super’ can call both parametric as well as non parametric constructors depending upon the situation.
+
+Eg: super(); // Declared Inside of Derived
+
+super and super() look alike, but they are very different in their functionality (purpose).
+
+super with variables and methods: super is used to call super class variables and methods by the subclass object when they are overridden by subclass.
+
+super() with constructors: super() is used to call super class constructor from subclass constructor.
+
+*/

@@ -1,0 +1,10 @@
+Interface :
+Interface is used in situation, when we need to restrict derived class to implements all methods. 
+This can be done by making abstract class with all abstract methods, then why use interface? 
+The answer is, a class can inherit only one class at a time but a class can implement more than one interface 
+at a time along with another class.
+
+Abstract:
+Abstract class is used in situation, when we have partial set of implementation of methods in a class. 
+For example, consider a class have four methods. Out of four methods, we have an implementation of two methods 
+and we need to restrict derived class to implement other two methods. In these kind of situations, we should use abstract class.

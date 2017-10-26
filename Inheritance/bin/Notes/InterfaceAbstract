@@ -1,0 +1,12 @@
+**
+ * Interface must be declare with interface keyword.
+ * Like abstract class, we can't create an object of abstract class.
+ * All methods in interface are public and abstract.
+ * We must implement all method in derived class.
+ * A class can inherit interface using implements keyword.
+ */
+ 
+ /** An interface is a blueprint of a class, it can have methods and variables like a class but methods 
+ * declared in a interface will be by default abstract(only declaration no body) and the variables declared 
+ * will be public, static & final by default.
+*/
